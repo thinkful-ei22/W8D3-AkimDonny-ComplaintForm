@@ -30,7 +30,7 @@ class Complaint extends React.Component{
        <label htmlFor="details">Give more details (optional)</label>
        <br/>
         
-        <Field component={Input}  name="details" id="details" validate={[required,nonEmpty]}>Test this</Field>
+        <Field component={Input} element="textarea"  name="details" id="details" validate={[required,nonEmpty]}>Test this</Field>
         <br/>
         <button type="submit">Submit</button>
 
